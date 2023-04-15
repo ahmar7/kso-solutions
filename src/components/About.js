@@ -4,7 +4,7 @@ import AboutImg from "../assets/img/about.jpg";
 import Sectionheading from "./SectionHeading";
 const About = () => {
   return (
-    <div className="about-main pb-5">
+    <div id="aboutus" className="about-main pb-5">
       <div className="main-width">
         <Sectionheading
           titleBefore="Our"

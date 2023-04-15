@@ -11,12 +11,18 @@
   justify-content: space-between;
   align-items: center;
 }
-.main-header{
-    position: absolute
-    ;
-    top: 0;
-    z-index: 9999;
-    width: 100%;
+.sticky {
+  position: fixed;
+  width: 100%;
+  z-index: 99888;
+  top: 0;
+  animation: mymove 1s forwards;
+}
+.main-header {
+  position: absolute;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
 }
 .right-info i {
   color: white;
@@ -66,4 +72,47 @@
 }
 .header-navigation a.active {
   color: royalblue !important;
+}
+
+.mbl-ico {
+  display: none;
+}
+@media (max-width: 600px) {
+  .mbl-ico {
+    display: block;
+  }
+  .mbl-ico i {
+    font-size: 25px;
+  }
+  .info-nav {
+    display: none;
+  }
+  .header-navigation {
+    position: absolute;
+    flex-direction: column;
+    top: 74px;
+    background: #f8f9fa;
+    width: 100%;
+    left: 0;
+    overflow: hidden;
+    height: 0;
+    transition: all 0.3s ease;
+  }
+  .main-banner {
+    margin-top: 74px !important;
+  }
+  .full-height {
+    height: 185px !important;
+    transition: all 0.3s ease;
+    padding-bottom: 20px;
+  }
+}
+
+@keyframes mymove {
+  from {
+    top: -100px;
+  }
+  to {
+    top: 0px;
+  }
 }

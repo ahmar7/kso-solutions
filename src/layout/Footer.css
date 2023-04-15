@@ -1,0 +1,50 @@
+.footer-main{
+    background-color: #292f35;
+}
+.footer-inner{
+    padding: 3rem  15px!important;
+}
+.footer-flex{
+    color: white !important;
+    display: flex;
+    text-align: left;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+}
+.about-content{
+    padding-inline: 15px;
+}
+.footer-head{
+        position: relative;
+    margin-bottom: 2rem;
+}
+.footer-head h3{
+    font-size: 1.2rem;
+}
+.footer-head h3::after{
+        content: "";
+    display: inline-block;
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    left: 0;
+    background: royalblue;
+    top: 30px;
+}
+.footer-desc p{
+    color: #f8f9fa!important;
+    margin-bottom: 1rem;
+}
+
+.footer-links{
+    padding: 0 15px;
+}
+
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-nav a{
+    color: white;
+}

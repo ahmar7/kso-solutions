@@ -4,7 +4,7 @@ import Sectionheading from "./SectionHeading";
 import { ServiceData } from "../Data/ServiceData";
 const Services = () => {
   return (
-    <div className="services-main alter-bg">
+    <div id="ourservices" className="services-main alter-bg">
       <div className="main-width">
         <Sectionheading
           titleBefore="Our"
