@@ -1,45 +1,69 @@
-.info-nav{
-        background-color: #2f4e72;
-        padding: 0.75rem 0;
-        text-align: center;
-        display: flex
-        ;
-        justify-content: center;
+.info-nav {
+  background-color: #2f4e72;
+  padding: 0.75rem 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
-.flex-info{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.flex-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.right-info i{
-    color: white;
+.main-header{
+    position: absolute
+    ;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
 }
-.flex-row{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
-    gap: 10px;
+.right-info i {
+  color: white;
 }
-.info-line{
-    color: white;
-    font-size: 16px;
+.flex-row {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
 }
-.right-info{
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    gap: 20px;
+.info-line {
+  color: white;
+  font-size: 16px;
 }
-.main-nav{
-    box-shadow: 0 2px 6px rgba(43,73,111,.2);
-background-color: #f8f9fa!important;
-display: flex;
-padding: 0.75rem 0;
-justify-content: space-between;
-align-items: center;
+.right-info {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
-.nav-logo img{
-    width: 100px;
+.navigation-header {
+  box-shadow: 0 2px 6px rgba(43, 73, 111, 0.2);
+  background-color: #f8f9fa !important;
+}
+.main-nav {
+  display: flex;
+  padding: 0.75rem 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-logo img {
+  width: 100px;
+}
+.header-navigation {
+  display: flex;
+  gap: 15px;
+}
+.header-navigation a {
+  color: #4e4e4e !important;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.header-navigation a:hover {
+  color: royalblue !important;
+}
+.header-navigation a.active {
+  color: royalblue !important;
 }

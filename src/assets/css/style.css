@@ -20,6 +20,8 @@ button{
 a{
     text-decoration: none !important;
 
+}  h3 {
+    font-size: 1.75rem;
 }
 @media (max-width: 1224px) {
   .main-width {

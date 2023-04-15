@@ -1,0 +1,28 @@
+.flex-block{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: left;
+    gap: 30px;
+    box-sizing: border-box;
+}
+.about-inner{
+    box-sizing: border-box;
+    width: 47%;
+    
+}
+.about-inner .about-img{
+width: 100%;
+}
+.about-head{
+    margin-bottom: 20px;
+}
+.para-mar{
+    margin-bottom: 1rem;
+}
+@media (max-width:767px) {
+   .about-inner{
+    width: 100%;
+} 
+    
+}
