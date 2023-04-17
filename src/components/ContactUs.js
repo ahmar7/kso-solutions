@@ -20,14 +20,13 @@ const ContactUs = () => {
     setActive(true);
     emailjs
       .sendForm(
-        "service_3lptx9v",
-        "template_21l3c7i",
+        "service_ff4b8iv",
+        "template_4fy4rd4",
         form.current,
-        "THoMxI-7hmnm7JmBJ"
+        "ki5f2TtXrI3edY54v"
       )
       .then(
-        (result) => {
-          console.log(result.text);
+        (result) => { 
           e.target.reset();
           setIsSent(true);
           setActive(true);
