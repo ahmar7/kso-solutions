@@ -31,7 +31,7 @@ const Footer = () => {
               <a href="#contactus">Contact</a>
             </div>
           </div>
-          <div className="col-sm-6 footer-links col-md-6 col-lg-3 mb-5">
+          {/* <div className="col-sm-6 footer-links col-md-6 col-lg-3 mb-5">
             <div className="footer-head">
               <h3>Latest News</h3>
             </div>
@@ -42,7 +42,7 @@ const Footer = () => {
                 Fuga ipsum inventore facere sint quis provident odit optio quasi
               </a>
             </div>
-          </div>
+          </div> */}
           <div className="col-sm-6 footer-links col-md-6 col-lg-3 mb-5">
             <div className="footer-head">
               <h3>Contact Us</h3>
