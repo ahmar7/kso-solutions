@@ -26,7 +26,7 @@ const ContactUs = () => {
         "ki5f2TtXrI3edY54v"
       )
       .then(
-        (result) => { 
+        (result) => {
           e.target.reset();
           setIsSent(true);
           setActive(true);
@@ -53,9 +53,9 @@ const ContactUs = () => {
         />
         <div className="contact-form col-md-9 col-lg-7">
           {isSent ? (
-            <div class="alert alert-success left-align" role="alert">
-              <i class="fa-solid fa-check"></i> Thank you. Someone will be in
-              touch shortly.
+            <div className="alert alert-success left-align" role="alert">
+              <i className="fa-solid fa-check"></i> Thank you. Someone will be
+              in touch shortly.
             </div>
           ) : (
             <form ref={form} onSubmit={sendEmail}>
@@ -90,8 +90,8 @@ const ContactUs = () => {
               />
               <br />
               {error && (
-                <div class="alert alert-danger left-align" role="alert">
-                  <i class="fa-solid fa-circle-exclamation"></i> You message
+                <div className="alert alert-danger left-align" role="alert">
+                  <i className="fa-solid fa-circle-exclamation"></i> You message
                   isn't sent, please try again.
                 </div>
               )}
@@ -108,7 +108,10 @@ const ContactUs = () => {
                 }
               >
                 {active ? (
-                  <div class="spinner-border text-white " role="status"></div>
+                  <div
+                    className="spinner-border text-white "
+                    role="status"
+                  ></div>
                 ) : (
                   "Send"
                 )}

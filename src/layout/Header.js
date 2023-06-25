@@ -65,11 +65,11 @@ const Header = () => {
         <div className="flex-info main-width">
           <div className="right-info">
             <div className="flex-row">
-              <i class="fa-sharp fa-solid fa-phone"></i>
+              <i className="fa-sharp fa-solid fa-phone"></i>
               <p className="info-line">802.867.5309</p>
             </div>
             <div className="flex-row">
-              <i class="fa-solid fa-envelope"></i>
+              <i className="fa-solid fa-envelope"></i>
               <p className="info-line">info@kso-solutions.com</p>
             </div>
           </div>

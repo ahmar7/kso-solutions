@@ -1,8 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Services.css";
 import Sectionheading from "./SectionHeading";
 import { ServiceData } from "../Data/ServiceData";
 const Services = () => {
+  useEffect(() => {
+    fetch("http://localhost:3000/all/ahmar", {
+      method: "GET",
+    })
+      .then((response) => {
+        return response.json();
+      })
+      .then((data) => {
+        // setUsers(data);
+        console.log(data);
+      })
+      .catch((e) => {
+        console.log(e);
+      });
+  }, []);
+
   return (
     <div id="ourservices" className="services-main alter-bg">
       <div className="main-width">
@@ -23,9 +39,7 @@ const Services = () => {
 
                 <div className="card-desc">
                   <h3>{item.title}</h3>
-                  <p>
-                    {item.para}
-                  </p>
+                  <p>{item.para}</p>
                 </div>
               </div>
             </div>
